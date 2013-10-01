@@ -12,7 +12,7 @@
 ;;; Commentary:
 
 ;; We dispense with most of the point and click UI, reduce the startup noise,
-;; configure smooth scolling and a nice theme that's easy on the eyes (zenburn).
+;; configure smooth scolling and a nice theme that's easy on the eyes (solarized).
 
 ;;; License:
 
@@ -72,8 +72,8 @@
                                             (abbreviate-file-name (buffer-file-name))
                                           "%b"))))
 
-;; use zenburn as the default theme
-(load-theme 'zenburn t)
+;; use solarized as the default theme
+(load-theme 'solarized-light t)
 
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here

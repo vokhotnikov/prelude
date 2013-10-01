@@ -1,7 +1,7 @@
-;;; personalisation --- load Solarized theme
+;;; personalisation --- tweaks upon solarized theme
 
 ;;; Code:
-(load-theme 'solarized-light t)
+(global-linum-mode 1)
 
 (provide '20-ui-theme)
 ;;; 20-ui-theme.el ends here
